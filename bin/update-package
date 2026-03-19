@@ -18,7 +18,7 @@ const scripts = [
   },
   { name: 'posttest',
     deps: ['nyc'],
-    script: 'npm audit --production'
+    script: 'npm audit --omit=dev'
   },
   { name: 'test:unit',
     deps: ['nyc', 'mocha'],
