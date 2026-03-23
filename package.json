@@ -6,6 +6,9 @@
     "preinstall": "./bin/install",
     "test": "true"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "bin": {
     "hmpo-lintapostrophes": "./bin/lintapostrophes",
     "hmpo-checkgit": "./bin/checkgit",
@@ -15,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UKHomeOffice/passports-node-standards.git"
+    "url": "git+https://github.com/HMPO/hmpo-node-standards.git"
   },
   "keywords": [
     "hmpo",
@@ -25,10 +28,10 @@
   "author": "HMPO",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/UKHomeOffice/passports-node-standards/issues"
+    "url": "https://github.com/HMPO/hmpo-node-standards/issues"
   },
-  "homepage": "https://github.com/UKHomeOffice/passports-node-standards#readme",
+  "homepage": "https://github.com/HMPO/hmpo-node-standards#readme",
   "dependencies": {
-    "hmpo-i18n": "^6.0.1"
+    "hmpo-i18n": "^8.0.0"
   }
 }
